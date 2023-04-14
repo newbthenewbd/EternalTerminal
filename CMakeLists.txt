@@ -554,7 +554,7 @@ else(WIN32)
     ${CORE_LIBRARIES})
   decorate_target(htmd)
 
-  if(BUILD_TESTING)
+  if(NOT BUILD_TESTING)
     enable_testing()
 
     file(GLOB TEST_SRCS test/*Test.cpp)
