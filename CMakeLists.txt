@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.0.2)
+cmake_minimum_required(VERSION 3.13)
 
 set(EXTERNAL_DIR "${CMAKE_SOURCE_DIR}/external")
 
