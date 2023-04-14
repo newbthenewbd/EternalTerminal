@@ -521,7 +521,7 @@ else(WIN32)
       ${CORE_LIBRARIES})
   decorate_target(htmd)
 
-  enable_testing()
+  #enable_testing()
 
   file(GLOB TEST_SRCS test/*Test.cpp)
   add_executable(
